@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   
 }))
 
-const Cards = ({data}) =>{
+const Country = ({data}) =>{
   const classes = useStyles()
   return (
     <Grid container>
@@ -39,7 +39,7 @@ const Cards = ({data}) =>{
               Casos Confirmados
             </Typography>
             <Typography variant ='h4' component = 'h2'>
-              <CountUp start = {0} end={data.confirmed} duration={2}
+              <CountUp start = {0} end={data.Confirmed} duration={2}
               separator='.'/>
             </Typography>
             
@@ -53,7 +53,7 @@ const Cards = ({data}) =>{
               Mortes Confirmadas
             </Typography>
             <Typography variant ='h4' component = 'h2'>
-            <CountUp start = {0} end={data.deaths} duration={2}
+            <CountUp start = {0} end={data.Deaths} duration={2}
               separator='.'/>
             </Typography>
             
@@ -67,7 +67,7 @@ const Cards = ({data}) =>{
               Casos Recuperados
             </Typography>
             <Typography variant ='h4' component = 'h2'>
-            <CountUp start = {0} end={data.recovered} duration={2}
+            <CountUp start = {0} end={data.Active} duration={2}
               separator='.'/>
             </Typography>
             
@@ -81,4 +81,4 @@ const Cards = ({data}) =>{
   );
 }
 
-export default Cards
+export default Country
