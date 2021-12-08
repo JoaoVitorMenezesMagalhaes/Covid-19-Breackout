@@ -4,4 +4,4 @@ Cronograma:
 
 2° Semana: Todas as funcionalidades funcionando - feito
 
-3° Semana: Aprimorar o projeto-[]
+3° Semana: Aprimorar o projeto- não deu tempo de melhorar, mas ficou bonito
